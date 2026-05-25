@@ -101,7 +101,7 @@ sqlite3 temperature.db "SELECT * FROM statistics ORDER BY id DESC LIMIT 10;"
 ```
 exercicio11-rabbitmq-mourayasmin/
 ├── config.py                      # Configurações compartilhadas
-├── const.py                       # IP do servidor RabbitMQ
+├── const.py                       # IP do servidor RabbitMQ (substituir com o IP público da máquina AWS com RabbitMQ)
 ├── requirements.txt               # Dependências Python
 ├── test_connection.py             # Script de teste
 ├── producers/
